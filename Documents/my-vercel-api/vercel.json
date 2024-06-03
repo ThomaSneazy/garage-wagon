@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/check-availability.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/check-availability", "dest": "/api/check-availability.js" }
+  ]
+}
